@@ -7,7 +7,13 @@ function Footer() {
                     <li>Logo</li>
                     <li>Doormat Naigation</li>
                     <li>Contact</li>
-                    <li>Social Media</li>
+                    <li className="social-media">
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>TicTok</li>
+                        </ul>
+                    </li>
                 </ul>
             </footer>
         </>

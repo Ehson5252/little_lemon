@@ -2,7 +2,7 @@ function Nav() {
     return(
         <>
             <nav>
-                <ul>
+                <ul className="nav">
                     <li>Home</li>
                     <li>About</li>
                     <li>Menu</li>

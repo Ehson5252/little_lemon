@@ -6,9 +6,9 @@ import Nav from "./Nav"
 function Header() {
     return(
         <>
-            <header>
-            <MyLogo />
-            <Nav/>
+            <header className="header">
+            <div className="logo"><MyLogo /></div>
+            <Nav />
             </header>
         </>
     )

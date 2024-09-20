@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom'
+
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +13,9 @@ root.render(
     <meta name="og:title" content="Little Lemon" />
     <meta name="og:description" content="Delisios food from professional chef" />
     <meta name="og:image" content="./assets/restaurant.jpg" />
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

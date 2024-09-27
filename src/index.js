@@ -14,6 +14,7 @@ root.render(
     <meta name="og:description" content="Delisios food from professional chef" />
     <meta name="og:image" content="./assets/restaurant.jpg" />
     <BrowserRouter>
+    <script src="https://raw.githubusercontent.com/courseraap/capstone/main/api.js"></script>
       <App />
     </BrowserRouter>
   </React.StrictMode>
